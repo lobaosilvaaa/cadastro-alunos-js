@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Cadastro de Alunos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Sistema de Cadastro de Alunos</h1>
+
+        <section id="cadastro">
+            <h2>Cadastro de Aluno</h2>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite o nome do aluno">
+            <label for="nota">Nota:</label>
+            <input type="number" id="nota" placeholder="Digite a nota">
+            <button onclick="adicionarAluno()">Cadastrar</button>
+        </section>
+
+        <section id="acoes">
+            <h2>Ações</h2>
+            <button onclick="mostrarAlunos()">Exibir Todos os Alunos</button>
+            <button onclick="mostrarAprovados()">Exibir Aprovados</button>
+            <button onclick="limparSistema()">Limpar Sistema</button>
+        </section>
+
+        <section id="resultado">
+            <h2>Resultado</h2>
+            <div id="output"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
