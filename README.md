@@ -20,12 +20,6 @@ Criar um sistema simples de **cadastro de alunos**, com funcionalidades que envo
 
 ---
 
-## 📷 Demonstração (GIF/Screenshot)
-
-> 💡 *Insira aqui uma imagem ou gif mostrando o funcionamento da aplicação.*
-
----
-
 ## 🚀 Tecnologias Utilizadas
 
 - HTML5
